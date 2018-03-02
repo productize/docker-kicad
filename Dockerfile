@@ -1,5 +1,5 @@
 
-FROM ubuntu:latest
+FROM ubuntu:xenial
 MAINTAINER Seppe Stas <seppe@productize.be>
 LABEL Description="Minimal KiCad image based on Ubuntu"
 
