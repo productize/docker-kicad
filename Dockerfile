@@ -9,7 +9,7 @@ RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selectio
 	apt-get -y install gnupg2 && \
 	echo 'deb http://ppa.launchpad.net/js-reynaud/kicad-4/ubuntu bionic main' >> /etc/apt/sources.list && \
 	apt-key add kicad-ppa.pgp && \
-	apt-get -y update && apt-get -y install --no-install-recommends kicad && \
+	apt-get -y update && apt-get -y install --no-install-recommends kicad=4.0.7+e2-6376~61~ubuntu18.04.1 && \
 	apt-get -y purge gnupg2 && \
 	apt-get -y autoremove && \
 	rm -rf /var/lib/apt/lists/* && \
