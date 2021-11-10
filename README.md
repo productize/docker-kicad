@@ -23,4 +23,4 @@ Alternativly, just using the KiCad version will use the KiCad version on the
 latest stable Ubuntu release. The `latest` tag contains the latest KiCad stable
 release on the latest Ubuntu stable release.
 
-[KiCad EDA suite]: http://kicad-pcb.org/
+[KiCad EDA suite]: http://kicad.org/
